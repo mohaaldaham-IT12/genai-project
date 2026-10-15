@@ -11,7 +11,7 @@
 | `Apply` | يأخذ نسخة احتياطية → يعالج الضوابط الفاشلة فقط → يعيد الفحص |
 | `Rollback` | يسترجع الريجستري والخدمات وسياسة الأمان وسياسة الـ Audit من النسخة الاحتياطية |
 
-Controls covered (~100 checks): password/lockout policy, NTLM/LM, SMB signing & SMBv1, anonymous access,
+Controls covered (~80 checks): password/lockout policy, NTLM/LM, SMB signing & SMBv1, anonymous access,
 UAC, interactive logon, RDP (NLA/TLS), Windows Firewall profiles, AutoPlay, LLMNR, WDigest,
 PowerShell logging, event-log sizes, advanced audit policy, risky services.
 
